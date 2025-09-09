@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 13 HTML</title>
+</head>
+<body>
+    <h1>Exemplo 13 HTML - Formulários</h1>
+    <form action="paginaDestino.php" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="">Nome</label> <br>
+            <input type="text" name="txtNome" required><br>
+            <label for="">Ano de Nascimento</label> <br>
+            <input type="number" name="txtAnodeNascimento" id="txtAnodeNascimento" min="1940" max="2100" step="1"><br>
+            <label for="">Telefone</label> <br>
+            <input type="tel" name="txtTelefone" id="txtTeleno"><br>
+            <label for="">Gênero de Filmes Favoritos</label> <br>
+            <input type="checkbox" name="chkGenero" id="chkGenero" value="1">Ficção <br>
+            <input type="checkbox" name="chkGenero" id="chkGenero" value="2">Drama <br>
+            <input type="checkbox" name="chkGenero" id="chkGenero" value="3">Terror <br>
+            <input type="checkbox" name="chkGenero" id="chkGenero" value="4">Ação <br>
+            <input type="checkbox" name="chkGenero" id="chkGenero" value="5">Suspense <br>
+            <button type="submit">Cadastrar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
